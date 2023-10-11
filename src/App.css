@@ -1,0 +1,91 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo-title {
+  margin-top: 15px;
+  margin-left: 27px;
+  font-size: large;
+  color: rgb(22, 7, 138);
+}
+
+.SidebarList {
+  font-size: 20px;
+  font-style: inherit;
+}
+
+ul.SidebarList {
+  margin-top: 30px;
+  padding-left: 27px;
+}
+
+ul.SidebarList li {
+  margin-bottom: 30px;
+}
+
+.SidebarList a {
+  color: rgb(206, 217, 243);
+  border-radius: 3px;
+  font-weight: bolder;
+}
+
+.SidebarList a:hover {
+  padding: 8px 0px 6px 10px;
+}
+
+li.answerlist {
+  list-style: circle;
+}
+
+li.questionlist {
+  list-style: circle;
+}
+
+li {
+  list-style: none;
+}
+
+.sidebar-icon {
+  margin-right: 5px;
+}
+
+.SidebarBackground {
+  background-color: rgb(42, 48, 246);
+  height: 1000px;
+  width: 160px;
+  text-align: left;
+}
+
+.RouteContent {
+  margin-top: 40px;
+  margin-left: 30px;
+}
+
+.StudentContent {
+  background-color:#6eb1ef;
+  width:auto;
+  height:300px;
+  text-align:center;
+  margin-left:10px;
+}
+
+#sidebar a.active {
+  background-color: rgb(24, 8, 199);
+  border-radius: 3px;
+  /* width: 220%;
+  height: 400px; */
+}
+
+.OverallContent {
+  display: flex;
+  
+}
+
+.answer-sign {
+  margin-top: 13px;
+  margin-left: 15px;
+  font-style: italic;
+}
